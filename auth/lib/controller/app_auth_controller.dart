@@ -1,5 +1,5 @@
 import 'package:auth/models/response_model.dart';
-import 'package:auth/utils/app_const.dart';
+import 'package:auth/utils/app_env.dart';
 import 'package:auth/utils/app_response.dart';
 import 'package:auth/utils/app_utils.dart';
 import 'package:conduit/conduit.dart';
@@ -123,9 +123,9 @@ class AppAuthController extends ResourceController {
   }
 
   Map<String, dynamic> _getTokens(int id) {
-    final key = AppConst.secretKey;
+    final key = AppEnv.secretKey;
     final accessClaimSet =
-        JwtClaim(maxAge: Duration(minutes: 1), otherClaims: {'id': id});
+        JwtClaim(maxAge: Duration(hours: 1), otherClaims: {'id': id});
     final refreshClaimSet = JwtClaim(otherClaims: {'id': id});
     final tokens = <String, dynamic>{};
     tokens['access'] = issueJwtHS256(accessClaimSet, key);
