@@ -1,5 +1,5 @@
-name: auth
-description: Auth Service.
+name: data
+description: Data Service.
 version: 1.0.0
 
 environment:
