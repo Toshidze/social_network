@@ -9,14 +9,14 @@ class AppResponse extends Response {
   static ResponseModel _getResponseModel(error, String? message) {
     if (error is QueryException) {
       return ResponseModel(
-        error: error.toString(),
-        message: message ?? error.message,
-      );
+          error: error.toString(), message: message ?? error.message);
     }
+
     if (error is JwtException) {
       return ResponseModel(
           error: error.toString(), message: message ?? error.message);
     }
+
     return ResponseModel(
         error: error.toString(), message: message ?? 'Неизвестная ошибка');
   }

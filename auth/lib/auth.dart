@@ -1,6 +1,6 @@
-import 'package:auth/controller/app_auth_controller.dart';
-import 'package:auth/controller/app_token_controller.dart';
-import 'package:auth/controller/app_user_controller.dart';
+import 'package:auth/controllers/app_auth_controller.dart';
+import 'package:auth/controllers/app_token_controller.dart';
+import 'package:auth/controllers/app_user_controller.dart';
 import 'package:auth/utils/app_env.dart';
 import 'package:conduit/conduit.dart';
 
@@ -17,7 +17,9 @@ class AppService extends ApplicationChannel {
 
   @override
   Controller get entryPoint => Router()
-    ..route('token/[:refresh]').link(() => AppAuthController(managedContext))
+    ..route('token/[:refresh]').link(
+      () => AppAuthController(managedContext),
+    )
     ..route('user')
         .link(() => AppTokenController())!
         .link(() => AppUserController(managedContext));

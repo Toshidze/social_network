@@ -9,5 +9,4 @@ RUN dart pub run conduit db generate
 RUN dart pub run conduit db validate
 EXPOSE 6100
 
-ENTRYPOINT [ "dart", "pub", "run", "conduit:conduit", "serve", "--port", "6100" ]
-
+ENTRYPOINT [ "dart","pub","run","conduit:conduit","serve","--port","6100" ]

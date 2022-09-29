@@ -1,7 +1,7 @@
 import 'package:conduit/conduit.dart';
-import 'package:data/controller/app_post_controller.dart';
-import 'package:data/controller/app_token_controller.dart';
+import 'package:data/controllers/app_post_controller.dart';
 import 'package:data/utils/app_env.dart';
+import 'controllers/app_token_controller.dart';
 
 class AppService extends ApplicationChannel {
   late final ManagedContext managedContext;
