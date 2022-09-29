@@ -12,7 +12,7 @@ class AppTokenController extends Controller {
     try {
       final header = request.raw.headers.value(HttpHeaders.authorizationHeader);
       final token = AuthorizationBearerParser().parse(header);
-      final jwtClaim = verifyJwtHS256Signature(token ?? '', AppEnv.secretKey);
+      final jwtClaim = verifyJwtHS256Signature(token ?? "", AppEnv.secretKey);
       jwtClaim.validate();
       return request;
     } catch (error) {

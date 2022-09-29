@@ -6,11 +6,10 @@ version: '3.5'
 # 6201 - db_data
 
 services:
+
   auth:
     build: ./auth
     container_name: auth
-    ports:
-      - 6100:6100
     environment:
       - SECRET_KEY=SECRET_KEY
       - PORT=6100
@@ -31,7 +30,7 @@ services:
     environment:
       - POSTGRES_PASSWORD=root
       - POSTGRES_USER=admin
-    image: postgres:14.4-alpine
+    image: postgres:14.3-alpine
     command:
       - 'postgres'
       - '-c'
@@ -41,8 +40,54 @@ services:
     networks:
       - internal_net
 
+  db_data:
+    container_name: db_data
+    ports:
+      - '6201:6201'
+    environment:
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_USER=admin
+    image: postgres:14.3-alpine
+    command:
+      - 'postgres'
+      - '-c'
+      - 'port=6201'
+    volumes:
+      - db_data_vol:/var/lib/postgresql/data/
+    networks:
+      - internal_net
+
+  data:
+    build: ./data
+    container_name: data
+    environment:
+      - SECRET_KEY=SECRET_KEY
+      - PORT=6200
+      - DB_USERNAME=admin
+      - DB_PASSWORD=root
+      - DB_HOST=db_data
+      - DB_PORT=6201
+      - DB_NAME=postgres
+    depends_on:
+      - db_data
+    networks:
+      - internal_net
+
+  nginx:
+    container_name: nginx
+    image: nginx:1.23.1-alpine
+    networks:
+      - internal_net
+    ports:
+      - 80:80
+    depends_on:
+      - auth
+      - data
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
 volumes:
   db_auth_vol: {}
+  db_data_vol: {}
 
 networks:
   internal_net:

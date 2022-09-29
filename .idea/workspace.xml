@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="01ebd322-c6ef-4c95-a5a8-cb82b3c7bbb2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/auth/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/auth/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/auth/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/auth/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/auth/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/analysis_options.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth/analysis_options.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/bin/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/auth/bin/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/lib/auth.dart" beforeDir="false" afterPath="$PROJECT_DIR$/auth/lib/auth.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/lib/controller/app_auth_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/lib/controller/app_token_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/lib/controller/app_user_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/lib/models/response_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/auth/lib/models/response_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/lib/utils/app_const.dart" beforeDir="false" afterPath="$PROJECT_DIR$/auth/lib/utils/app_const.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/lib/utils/app_env.dart" beforeDir="false" afterPath="$PROJECT_DIR$/auth/lib/utils/app_env.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/lib/utils/app_response.dart" beforeDir="false" afterPath="$PROJECT_DIR$/auth/lib/utils/app_response.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/lib/utils/app_utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/auth/lib/utils/app_utils.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/migrations/00000001_initial.migration.dart" beforeDir="false" afterPath="$PROJECT_DIR$/auth/migrations/00000001_initial.migration.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/migrations/00000002_unnamed.migration.dart" beforeDir="false" afterPath="$PROJECT_DIR$/auth/migrations/00000002_unnamed.migration.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/auth/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/data/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/data/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/data/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/analysis_options.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/analysis_options.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bin/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/data/bin/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/database.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/database.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lib/controller/app_post_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lib/controller/app_token_controller.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lib/data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/data/lib/data.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lib/models/response_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/data/lib/models/response_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lib/utils/app_const.dart" beforeDir="false" afterPath="$PROJECT_DIR$/data/lib/utils/app_const.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lib/utils/app_env.dart" beforeDir="false" afterPath="$PROJECT_DIR$/data/lib/utils/app_env.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lib/utils/app_response.dart" beforeDir="false" afterPath="$PROJECT_DIR$/data/lib/utils/app_response.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/lib/utils/app_utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/data/lib/utils/app_utils.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/data/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EUxE3ZW8T6XtiDla8BU45qR1PI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01ebd322-c6ef-4c95-a5a8-cb82b3c7bbb2" name="Default Changelist" comment="" />
+      <created>1662663849245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662663849245</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,4 +1,4 @@
-import 'package:auth/models/response_model.dart';
+import 'package:data/models/response_model.dart';
 import 'package:conduit/conduit.dart';
 import 'package:jaguar_jwt/jaguar_jwt.dart';
 
